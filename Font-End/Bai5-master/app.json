@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "HDNauAn",
+    "slug": "HDNauAn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/hamburger.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/hame.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chihirotran.basichello"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/hame.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.chihirotran.basichello"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f3b0c31-afea-4f8b-9a3b-de5c275b5df0"
+      }
+    }
+  }
+}
